@@ -164,8 +164,8 @@ const Cart = () => {
                 <p>Total: <span>$ {getTotal()}</span></p>
             </div>
 
-            <a onClick={() => clearCart()} className="CartButton">Limpiar carrito</a>
-            <a onClick={() => createOrder()} className="CartButton">Agregar documento a coleccion</a>
+            <button onClick={() => clearCart()} className="CartButton">Limpiar carrito</button>
+            <button onClick={() => createOrder()} className="CartButton">Agregar documento a coleccion</button>
         </div >
     )
 }
