@@ -34,7 +34,7 @@ const CartItem = ({ id, band, album, quantity, price }) => {
                 </p>
             </div>
             <div className='ButtonClean'>
-                <a onClick={() => handleRemove(id)}>X</a>
+                <button onClick={() => handleRemove(id)}>X</button>
             </div>
         </article>
     )

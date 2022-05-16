@@ -23,7 +23,7 @@ const NavBar = () => {
         <>
             <nav className="NavBar">
                 <Link to='/'>
-                    <img className='Logo' src={'/img/logo.svg'} />
+                    <img className='Logo' src={'/img/logo.svg'} alt='' />
                 </Link>
                 <div className='Categories'>
                     {categories.map(cat =>

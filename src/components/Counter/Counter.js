@@ -21,15 +21,15 @@ const Counter = ({ initial, stock, onAdd, band, album }) => {
                     ? 'count disable'
                     : 'count'
             }>
-                <a onClick={decrement}>-</a>
+                <button onClick={decrement}>-</button>
                 {<p>{count}</p>}
-                <a onClick={increment}>+</a>
+                <button onClick={increment}>+</button>
             </div>
-            <a onClick={() => onAdd(count)} className={
+            <button onClick={() => onAdd(count)} className={
                 stock === 0
                     ? 'disable'
                     : 'cart'
-            }>Agregar al carrito</a>
+            }>Agregar al carrito</button>
         </div>
     )
 }

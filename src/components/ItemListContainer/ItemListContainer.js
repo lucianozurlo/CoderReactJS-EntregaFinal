@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getDocs, collection, query, where, limit, orderBy } from 'firebase/firestore'; import { useParams } from 'react-router-dom'
+import { getDocs, collection, query, where, orderBy } from 'firebase/firestore'; import { useParams } from 'react-router-dom'
 import ItemList from '../ItemList/ItemList'
 import { getProducts } from '../../services/firebase/firestore'
 import { useAsync } from '../../hooks/useAsync'
