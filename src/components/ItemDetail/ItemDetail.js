@@ -6,11 +6,7 @@ import CartContext from '../../context/CartContext';
 import { useNotification } from '../../Notification/Notification';
 
 const ItemDetail = ({ id, band, album, price, description, cover, stock }) => {
-    const options = [{ id: 0, value: '', text: '-' }, { id: 1, value: '/', text: 'ItemDetailContainer' }, { id: 2, value: '/', text: 'Formulario' }]
-    const navigate = useNavigate()
-
     const { addItem, isInCart, getQuantityProd } = useContext(CartContext)
-
     const { setNotification } = useNotification()
 
     const handleOnAdd = (count) => {
