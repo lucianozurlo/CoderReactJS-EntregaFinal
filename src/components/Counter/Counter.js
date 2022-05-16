@@ -2,7 +2,7 @@ import './Counter.css'
 import { useState } from "react";
 import { useNotification } from '../../Notification/Notification';
 
-const Counter = ({ initial, stock, onAdd, band, album }) => {
+const Counter = ({ initial, stock, onAdd }) => {
 
     const [count, setCount] = useState(initial)
     const { setNotification } = useNotification()

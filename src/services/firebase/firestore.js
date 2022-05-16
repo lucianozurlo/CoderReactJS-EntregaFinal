@@ -14,7 +14,6 @@ export const getProducts = (categoryId) => {
 
         getDocs(collectionRef)
             .then(response => {
-                console.log(response)
                 const products = response.docs.map(doc => {
                     return createAdapterProductFromFirestore(doc)
                 })

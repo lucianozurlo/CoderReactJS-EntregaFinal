@@ -46,3 +46,30 @@ a {
     z-index: 1111;
     cursor: pointer;
 }
+
+a,
+button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 1;
+    display: flex;
+    align-content: center;
+    transition: all .2s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, .25);
+    padding: 5px 0px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0);
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+a:hover,
+button:hover {
+    color: #ff7b00;
+    border-color: #ff7b00;
+}

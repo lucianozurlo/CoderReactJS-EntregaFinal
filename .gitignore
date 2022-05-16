@@ -5,6 +5,7 @@
 
 #test
 /coverage
+_src
 
 #prod
 /build

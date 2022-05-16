@@ -5,7 +5,6 @@ const Item = ({ id, band, album, price, cover, stock }) => {
 
     const handleClick = (e) => {
         e.stopPropagation()
-        console.log('Hice click en Item')
     }
 
     return (

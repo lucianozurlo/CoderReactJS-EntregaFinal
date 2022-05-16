@@ -18,7 +18,6 @@ const Cart = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(input.name + ' - ' + input.phone + ' - ' + input.email)
     }
     const handleChange = (e) => {
         const { target } = e;
