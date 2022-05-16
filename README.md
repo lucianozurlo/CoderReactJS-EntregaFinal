@@ -1,4 +1,4 @@
-# Preentrega: ReactJS
+# Entrega Final: ReactJS
 Luciano Zurlo
 
 Inicializar con npm start
