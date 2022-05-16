@@ -1,0 +1,74 @@
+.NavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background: #111;
+    border-bottom: 1px solid #333;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.NavBar .Logo {
+    max-height: 50px;
+    margin-left: 30px;
+}
+
+.NavBar .Categories {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.NavBar>a {
+    width: unset;
+    border: 0;
+    margin: 0;
+}
+
+.NavBar>a>img {
+    height: 60px;
+    width: 165px;
+}
+
+.NavBar div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    opacity: 1;
+    display: flex;
+    align-content: center;
+    transition: all .2s ease-in-out;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: 0 10px;
+    width: 150px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.NavBar div a:first-child {
+    margin-left: 0;
+}
+
+.NavBar div a:last-child {
+    margin-right: 0;
+}
+
+.NavBar a:hover {
+    color: #ff7b00;
+    border-color: #ff7b00;
+}
+
+.NavBar a.ActiveOption {
+    color: #000;
+    border-color: #ff7b00;
+    background-color: #ff7b00;
+}

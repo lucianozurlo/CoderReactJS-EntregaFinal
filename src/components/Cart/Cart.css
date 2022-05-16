@@ -1,0 +1,66 @@
+.CartFields {
+    width: 800px;
+}
+
+.Cart>a {
+    padding: 25px 40px 25px 25px !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+
+h4 {
+    margin: 60px auto 30px;
+}
+
+.disable {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fields {
+    font-size: 16px;
+    text-align: left;
+    margin: 10px auto;
+}
+
+label {
+    width: 120px;
+
+}
+
+input {
+    border-radius: 10px;
+    border: 0;
+    padding: 5px 15px;
+    width: 350px;
+}
+
+.total {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 0;
+    margin-bottom: 60px;
+}
+
+.total p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.total p span {
+    font-weight: 700;
+}
+
+.CartButton {
+    display: inline-block;
+    margin: 0 20px;
+    width: 40%;
+
+}

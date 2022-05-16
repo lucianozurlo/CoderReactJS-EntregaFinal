@@ -1,0 +1,81 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 40px;
+}
+
+picture img {
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 25%);
+}
+
+.band {
+    font-weight: 700;
+    font-size: 22px;
+    margin: 15px 0 0;
+}
+
+.album {
+    font-weight: 200;
+    font-size: 20px;
+    margin: 0;
+}
+
+.price {
+    text-align: center !important;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 12px;
+    padding: 6px 10px 5px;
+    background-color: white;
+    color: #282c34;
+    border-radius: 6px;
+}
+
+.stock {
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0 auto 20px;
+}
+
+.stock.empty {
+    color: red
+}
+
+.stock span {
+    font-weight: 700;
+}
+
+a.detalles {
+    width: 150px;
+    margin: 20px 0 30px;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+a.detalles {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 1;
+    display: flex;
+    align-content: center;
+    transition: all .2s ease-in-out;
+    border: 1px solid #fff;
+    padding: 8px 0px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0);
+    justify-content: center;
+}
+
+a:hover.detalles {
+    color: #ff7b00;
+    border-color: #ff7b00;
+}

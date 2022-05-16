@@ -1,0 +1,12 @@
+.list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.list article section picture img {
+    max-width: 250px;
+}

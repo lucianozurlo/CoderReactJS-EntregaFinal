@@ -1,0 +1,67 @@
+.Item {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 30px 20px;
+    margin: 0;
+    font-size: 20px;
+    border: 1px dotted #333;
+    border-left: 0;
+    border-right: 0;
+}
+
+.ItemQuantity {
+    width: 10%;
+}
+
+.ItemTitle {
+    width: calc(50% - 30px);
+    text-align: left;
+    padding-left: 60px;
+}
+
+.ItemPrice {
+    width: 20%;
+}
+
+.ItemPriceTotal {
+    width: 20%;
+}
+
+.ButtonClean {
+    width: 30px;
+    padding: 0;
+}
+
+.ItemName {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 200
+}
+
+.ItemName span {
+    font-size: 18px;
+    font-weight: 500
+}
+
+.ItemBand {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+
+.ItemAlbum {
+    font-weight: 200;
+    font-size: 18px;
+    margin: 0;
+}
+
+.ButtonClean a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
