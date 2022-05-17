@@ -26,7 +26,7 @@ La estructura en Firestore consta de colecciones > documentos > campos. En este 
 ### Se deberán cargar los datos:
 
 #### Colecciones:
-`categories`: Pueden utilizarse cualquier tipo categoría. Ej: estilos musicales (grunge, punk, trash, etc.)
+`categories`: Pueden utilizarse cualquier tipo categoría. Ej: estilos musicales (grunge, punk, thrash, etc.)
 `products`: En esta colección se van a cargar los productos a vender.
 
 #### Documentos de categories:
