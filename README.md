@@ -14,24 +14,8 @@ Terminal:
 % git clone https://github.com/lucianozurlo/CoderReactJS-EntregaFinal.git
 ```
 ```shell
-// Generar package.json en el mismo directorio donde está el proyecto
-% cd CoderReactJS-EntregaFinal
-% npm init
-```
-```shell
-// Especificar referencias
- - package name
- - version
- - description
- - entry point
- - test command
- - git repository
- - keywords
- - author
- - license
-```
-```shell
 // Instalar dependencias npm en el mismo directorio donde está el proyecto
+% cd CoderReactJS-EntregaFinal
 % npm install
 ```
 
