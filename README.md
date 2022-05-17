@@ -14,7 +14,8 @@ Terminal:
 % git clone https://github.com/lucianozurlo/CoderReactJS-EntregaFinal.git
 ```
 ```shell
-// Generar package.json
+// Generar package.json en el mismo directorio donde está el proyecto
+% cd CoderReactJS-EntregaFinal
 % npm init
 ```
 ```shell
